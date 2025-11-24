@@ -4,6 +4,8 @@ I made this to work alongside the [GoDo Web App and API](https://github.com/Shad
 
 ## Commands
 
+#### When built in the future will replace `go run main.go {command}` to `godo {command}`
+
 - godo list
 - godo create -title? {title} -description? {description}
 - godo update -id? {id} -title? {title} -description? {description}
