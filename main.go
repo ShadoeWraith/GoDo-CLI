@@ -26,6 +26,8 @@ func main() {
 		cmd.Update(os.Args)
 	case "delete", "d":
 		cmd.Delete(os.Args)
+	case "pull", "p":
+		cmd.PullTasks()
 	case "-help", "-h":
 		cmd.Help()
 	case "-version", "-v":
